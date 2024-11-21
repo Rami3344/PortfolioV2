@@ -1,5 +1,6 @@
 {
   "name": "portfolio",
+  "homepage": "https://Rami3344.github.io/PortfolioV2/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -22,7 +23,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -43,6 +46,7 @@
     ]
   },
   "devDependencies": {
-    "@azure/static-web-apps-cli": "^2.0.1"
+    "@azure/static-web-apps-cli": "^2.0.1",
+    "gh-pages": "^6.2.0"
   }
 }
