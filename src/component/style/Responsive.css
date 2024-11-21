@@ -1,0 +1,168 @@
+/* ++++++++++++++ MAIN +++++++++++++++ */
+@media only screen and (max-width: 1444px) and (min-width:765px) {
+    .about .pic{
+        width: 100%; 
+    }
+    .about .pic-cont{
+        width: 70%;
+    }
+    .about p{
+        color: white;
+        font-size: 1.2em;
+        margin: 0 3%;
+        width: 100%;
+        text-align: center;
+    
+    }
+}
+@media only screen and (max-width: 765px) {
+    /*==================About====================*/
+.about{
+    display: block;
+    margin:0% 5%;
+    margin-top: 65px;
+    padding-top:40px ;
+}
+.about p{
+    color: white;
+    font-size: 0.9em;
+    margin: 0 10%;
+    text-align: center;
+
+}
+.about .pic-cont{
+    width: 100%;
+}
+.about .pic{
+    width: 70%;
+    height: auto;
+    float: none;
+    display: block;
+    margin: auto;  
+}
+.download{
+    margin-top: 20px;
+    background-color: transparent;
+    color: #0e9f34;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+/*line*/
+.line{
+    color: #0e9f34;
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    border: 1px solid;
+}
+  
+/*==================Skills====================*/
+.skills{
+    margin-top: 50px;
+}
+.sk{
+    display: flex;
+    margin: 0% 0%;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.sk .cont{
+    width: 27%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    background-color: #3b3b3b;
+    box-shadow: 0px 0px 5px rgb(82, 82, 82) ;
+    border-radius: 20px;
+    padding: 10px;
+}
+.cont p{
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: white;
+    text-align: center;
+}
+.cont img{
+    width: 100%;
+}
+/*==================Experiences====================*/
+.exp{
+    margin-top: 50px;
+}
+.exp-cont{
+    margin-top: 50px;
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+}
+.vl {
+    border-left: 3px solid green;
+    height: 93%;
+    margin-left: 8px;
+}
+.ball{
+    margin-bottom: 20px;
+    color: #0e9f34;
+    box-shadow: 0 0 10px ;
+    display: block;
+    border: 10px solid #0e9f34;
+    width: 20px;
+    border-radius: 50px;
+}
+.exp-cont h2{
+    color: white;
+    margin-left: 5px;
+}
+.exp-cont p{
+    color: white;
+    font-size: 1em;
+    margin-left: 25px;
+}
+/*==================Services====================*/
+.services{
+    margin-top: 50px;
+}
+.services h1{
+    color: #0e9f34;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.services .cont{
+    width: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    box-shadow: 0px 0px 5px rgb(82, 82, 82) ;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+/*==================Contact====================*/
+.contact{
+    margin-top: 50px;
+}
+.contact h1{
+    text-align: center;
+    color: #0e9f34;
+}
+.contact .container{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contact .container .cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    color: #ffffff;
+    font-size: 1.3em;
+    border-radius: 20px;
+    background-color: #3b3b3b;
+    width: 100%;
+}
+
+}
