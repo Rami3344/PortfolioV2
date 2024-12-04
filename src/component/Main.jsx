@@ -22,7 +22,7 @@ function Main() {
       
       <div className="about" id='about'>
         <ScrollAnimation customClass="left-animate">
-          <p><h2>A Little <span className='green'>About</span> Me:</h2> <br></br>My name is <span className='green'>Rami Tounsi</span> and i am a computer science student in the Higher Institute of Computer Science and Multimedia in Sfax. I am 21 years old and i am obsessed with IT and i love learning new technologies related to IT,also i love listening to music and i do DJing and playing video games in my freetime.<br/></p>
+          <p><h2>A Little <span className='green'>About</span> Me:</h2> <br></br>My name is <span className='green'>Rami Tounsi</span> and i am a computer science student in the Higher Institute of Computer Science and Multimedia in Sfax. I am 20 years old and i am obsessed with IT and i love learning new technologies related to IT,also i love listening to music and i do DJing and playing video games in my freetime.<br/></p>
         </ScrollAnimation>
         <ScrollAnimation customClass="right-animate">
         <div className='pic-cont'>
